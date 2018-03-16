@@ -39,6 +39,42 @@ public class Parsing {
 		}
 	}
 	
+	/*
+		{
+		   "html_attributions" : [],
+		   "results" : [
+		      {
+			 "geometry" : {
+			    "location" : {
+			       "lat" : 35.6686505,
+			       "lng" : 139.7639175
+			    },
+			    "viewport" : {
+			       "northeast" : {
+				  "lat" : 35.67000032989272,
+				  "lng" : 139.7652673298927
+			       },
+			       "southwest" : {
+				  "lat" : 35.66730067010727,
+				  "lng" : 139.7625676701072
+			       }
+			    }
+			 },
+			 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+			 "id" : "60b44dc920a3170e2f55dee5b806c0dd87482e24",
+			 "name" : "7 Chome-11-17 Ginza",
+			 "place_id" : "ChIJjw_ZyeeLGGARVh7uxrKtY4k",
+			 "reference" : "CmRbAAAALWiUcOSjkoVbdTGJehXzmi0GpZq0VFFUCRbSw5_gT1vy-c_lEsQA2NmQfXtMRepYM-4F_udiD0fEcht8s00hgCxHJkHaS1AdRREW9FxZ9ysKSHAECzrPYXLZ1_w-EIe0EhDlmUJ0F1sfEY--xFdMHbqjGhRtA1_XktOehqTzxpqZi74zkrc9XQ",
+			 "scope" : "GOOGLE",
+			 "types" : [ "street_address" ],
+			 "vicinity" : "Chūō-ku"
+		      }
+		   ],
+		   "status" : "OK"
+		}
+
+	*/
+	
 	final String googleuri = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?"
 			+"location=35.6,139.7"
 			+"&radius=500000"
